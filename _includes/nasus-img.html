@@ -1,0 +1,8 @@
+{% for skin in site.data.nasus-skins %}
+  <div style="background-image: url({{ skin.img-link }}); height: 100px" alt="{{ skin.title }}">
+    {{ skin.text }}
+  </div>
+{% endfor %}
+<section>
+  <p><a href="http://leagueoflegends.wikia.com/wiki/Nasus/Skins">- See more skins</a></p>
+</section>
