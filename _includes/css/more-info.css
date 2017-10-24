@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.more-info h3 {
+.more-info h3, .gallery h2 {
   font-size: 1.4em;
   font-weight: 400;
   letter-spacing: 0.2em;

@@ -164,7 +164,7 @@ header nav .menu-res .bar1, header nav .menu-res .bar2, header nav .menu-res .ba
   }
 }
 
-/*keyframes for the header*/
+/*keyframes for animation of fading in*/
 
 @keyframes fade {
   0%   { opacity: 0; }
