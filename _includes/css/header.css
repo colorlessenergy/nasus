@@ -19,7 +19,7 @@ header .info h1, header .info h2, header .info a {
   color: #fff;
 }
 
-header .info h1, header .info h2, header .info a {
+header .info h1, header .info h2, header .info a, {
   animation: fade 1.5s ease;
   font-weight: 100;
   letter-spacing: 0.2em;
@@ -39,7 +39,7 @@ header nav {
   justify-content: space-between;
 }
 
-header nav ul {
+header nav ul, footer ul {
   align-items: baseline;
   display: flex;
   justify-content: space-around;
@@ -51,7 +51,7 @@ header nav .main-nav {
   display: none;
 }
 
-header nav .main-nav a {
+header nav .main-nav a, footer ul li a {
   color: #fff;
 }
 
