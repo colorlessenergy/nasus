@@ -1,3 +1,19 @@
+section.bg-shurima {
+  background-image: url(images/shurima.png);
+  background-size: cover;
+  color: #fff;
+}
+
+section.more-info p a {
+  color: #1cae9c;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+section.more-info p a:hover {
+  color: #ffc0cb;
+}
+
 .more-info {
   align-items: center;
   display: flex;

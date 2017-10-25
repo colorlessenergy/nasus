@@ -47,6 +47,7 @@
   justify-content: center;
   height: 112px;
   width: 100%;
+  transition: background-color 1s ease;
 }
 
 .gallery section a {
@@ -56,6 +57,10 @@
   letter-spacing: 0.2em;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.gallery section:hover {
+  background-color: #000;
 }
 
 @media screen and (min-width: 961px) {
