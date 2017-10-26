@@ -1,6 +1,8 @@
 header {
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/nasus-header-bg.jpg);
   background-position: 68% 17%;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   height: 589px;
