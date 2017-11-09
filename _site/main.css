@@ -300,9 +300,16 @@ section.more-info p a:hover {
   .gallery {
     flex-direction: initial;
     flex-flow: wrap;
+    max-width: 1500px;
+    width: 100%;
   }
   .gallery div {
     width: 50%;
+  }
+  .gallery-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 

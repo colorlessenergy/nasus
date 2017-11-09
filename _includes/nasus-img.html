@@ -1,10 +1,12 @@
-<section class="gallery">
-  {% for skin in site.data.nasus-skins %}
-    <div style="  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url({{ skin.img-link }});">
-      <h2>{{ skin.text }}</h2>
-    </div>
-  {% endfor %}
-  <section>
-    <p><a href="http://leagueoflegends.wikia.com/wiki/Nasus/Skins">- See more skins</a></p>
+<section class="gallery-wrapper">
+  <section class="gallery">
+    {% for skin in site.data.nasus-skins %}
+      <div style="  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url({{ skin.img-link }});">
+        <h2>{{ skin.text }}</h2>
+      </div>
+    {% endfor %}
+    <section>
+      <p><a href="http://leagueoflegends.wikia.com/wiki/Nasus/Skins">- See more skins</a></p>
+    </section>
   </section>
 </section>
